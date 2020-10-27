@@ -1,3 +1,6 @@
+# Machine Translation
+In this notebook, I experimented with multiple architectures for machine translation. The first was simply an LSTM followed by a Dense layer. Next, an embedding layer was added to the beginning of this architecture. Thirdly, bidirectional LSTMs were used. Fourthly, an Encoder-Decoder architecture was trained. A final model combining many of these aspects (encoder-decoder, embedding layers and bidirectional LSTMs) was used.
+
 # Introduction
 In this notebook, you will build a deep neural network that functions as part of an end-to-end machine translation pipeline. Your completed pipeline will accept English text as input and return the French translation.
 
